@@ -1,0 +1,2 @@
+#### Exiftoool
+#### strings
