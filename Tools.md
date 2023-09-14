@@ -1,2 +1,3 @@
 #### Exiftoool
 #### strings
+#### stegcracker
