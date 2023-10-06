@@ -26,14 +26,14 @@ To use the script, follow these steps:
 1. Create a text file (`input.txt`) containing one website URL per line.
 2. Run the script.py with the following command:
 
-python Script.py input.txt output.csv
+python script.py input.txt output.csv
 
 ## Optional
 
 These are the options available in the script
 
 - For JSON Output
-python Script.py input.txt output.json --format json  (--format is an optional flag which you can use to save the output in JSON format)
+python script.py input.txt output.json --format json  (--format is an optional flag which you can use to save the output in JSON format)
 
 - For sites which have SSL ISSUES
   
