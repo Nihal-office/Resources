@@ -9,7 +9,6 @@ This script allows you to retrieve specific security response headers from a lis
 - [Optional](#optional)
 - [Output](#output)
 - [Examples](#examples)
-- [Contributing](#contributing)
 
 ## Prerequisites
 
@@ -38,7 +37,7 @@ python Script.py input.txt output.json --format json  (--format is an optional f
 
 - For sites which have SSL ISSUES
   
-python Script.py input.txt output.csv --disable-ssl-verify
+python script.py input.txt output.csv --disable-ssl-verify  (--disable-ssl-verify will disable SSL verification and ignore any SSL issues)
 
 - `input.txt`: Path to the input file with the list of website URLs.
 - `output.csv`: Path to the output file where headers will be saved. You can change the format to JSON by specifying `--format json`.
@@ -61,12 +60,16 @@ The headers are saved in the specified output file in CSV or JSON format.
 
 - For CSV File:
   
-python website_security_headers.py input.txt output.csv --format csv
+python script.py input.txt output.csv --format csv
 
 - For JSON file:
   
-python website_security_headers.py input.txt output.json --format json
+python script.py input.txt output.json --format json
 
 - For Default Format (CSV) :
 
-python website_security_headers.py input.txt output.csv
+python script.py input.txt output.csv
+
+- For Websites with SSL ISSUES:
+
+python script.py input.txt output.csv --disable--ssl-verify
