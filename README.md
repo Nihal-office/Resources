@@ -6,7 +6,6 @@ This Python script performs SSL/TLS scanning on a list of URLs and saves the res
 ## Table of Contents
 
 - [Prerequisites](#prerequisites)
-- [Getting Started](#getting-started)
 - [Usage](#usage)
 
 ## Prerequisites
