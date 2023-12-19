@@ -13,6 +13,7 @@ This Python script performs SSL/TLS scanning on a list of URLs and saves the res
 Before using this tool, make sure you have the following prerequisites installed:
 
 - Python 3.x
+- A Linux Distro
 
 ## Usage
 
